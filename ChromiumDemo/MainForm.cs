@@ -92,7 +92,7 @@ namespace ChromiumDemo
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Cef.Shutdown(); //不能再FormClosed里写这句，会偶发卡死
+            Cef.Shutdown(); //不能在FormClosed里写这句，会偶发卡死
         }
 
         private void goButton_Click(object sender, EventArgs e)
